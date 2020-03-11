@@ -1,0 +1,123 @@
+.box{
+  background: crimson;
+  transition-property: background;
+  transition-duration: 5s;
+  transition-timing-function: linear;
+}
+.box:hover {
+  background:green;
+  border-radius: 65%;
+}
+button {
+ border: 0;
+ background: crimson;
+ border-radius: 8px;
+ box-shadow: 0 5px 0 black;
+ color: darkgreen;
+ cursor:pointer;
+ font:lobster;
+ margin:0;
+ outline:0;
+ padding:15px 30px;
+ transition: all .5s linear;
+}
+
+button:active{
+  box-shadow: 0 5px 0 hotpink;
+  transform: translateY(10px);
+}
+
+.cities {
+    background-color:hotpink;
+    margin: 50px;
+    padding: 50px;
+}
+ .city {
+   color:silver;
+ }
+
+
+div{
+  width:500px;
+  height:200px;
+  background-color:navy;
+  border: 5px solid red;
+  transform: scale(0.8, 0.9);
+}
+  div.rot:hover {width:300px;
+  }
+div#rott {
+ transform: rotate(20deg);
+}
+
+
+@media only screen and (max-width: 600px){
+body {
+  background-color: purple;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+input {
+    display: none;
+  }
+  label,
+  ul {
+    border: 1px solid black;
+    border-radius: 6px;
+  }
+  label {
+    color: red;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 9px;
+    transition: all .15s ease;
+  }
+  label:hover {
+    color:gold;
+  }
+  input:checked + label {
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+    color: #9799a7;
+  }
+  nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .15s ease;
+  }
+  input:checked ~ nav {
+    max-height: 500px;
+  }
+  ul {
+    list-style: none;
+    margin: 8px 0 0 0;
+    padding: 0;
+    width: 100px;
+  }
+  li {
+    border-bottom: 1px solid #cecfd5;
+  }
+  li:last-child {
+    border-bottom: 0;
+  }
+  a {
+    color:black;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ff7b29;
+  }

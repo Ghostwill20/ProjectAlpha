@@ -1,0 +1,44 @@
+
+
+
+
+h1{
+    color:white;
+    text-align: center;
+}
+
+ol  {
+background:clear;
+padding: 5px;
+}
+
+ol li {
+    background-color: green;
+    padding: 5px;
+    margin-left: 40px;
+}
+
+
+.box{
+    width:300px;
+    height:300px;
+    offset:10px;
+}
+
+
+
+
+body {
+    background-image: url("https://i.pinimg.com/originals/e8/13/d5/e813d5a6ac37dd722503e24b55061b0e.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color:floralwhite;
+    background-size: cover;
+    color:white;
+}
+
